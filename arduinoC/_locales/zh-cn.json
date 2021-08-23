@@ -1,0 +1,10 @@
+{
+
+    "gravitydht20.untilConnected|block": "等待直到DHT20温湿度模块I2C连接成功",
+    "gravitydht20.read|block": "读取DHT20[TH]",
+
+
+    "gravitydht20.TH.getTemperature|menu": "温度(℃)",
+    "gravitydht20.TH.getHumidity|menu": "湿度(%RH)"
+
+}

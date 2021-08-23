@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "DHT20温湿度传感器",
+		"en": "Temperature&Humidity Sensor"
+	},
+	"description": {
+		"zh-cn": "SEN0497:I2C通信的新一代温湿度传感器，是DHT11的升级产品。",
+		"en": "SEN0497:Gravity Capacitive Fingerprint Sensor."
+	},
+	"author": "liliang",
+	"email": "969316753@qq.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "gravitydht20",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["microbit", "esp32","arduino","arduinonano","leonardo","mega2560","firebeetleesp32","telloesp32","maqueen","romeo","arduinounor3","maxbot"],
+			"main": "main.ts"
+		}
+	}
+}
